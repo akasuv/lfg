@@ -19,7 +19,7 @@
   "dependencies": {
     "@oclif/core": "^1",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.0.1",
+    "@oclif/plugin-plugins": "^2.0.12",
     "cli-progress": "^3.10.0",
     "cli-spinners": "^2.6.1",
     "download": "^8.0.0",
