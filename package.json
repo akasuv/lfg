@@ -1,6 +1,6 @@
 {
   "name": "lfg",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Frontend project auto-configuration",
   "author": "Wei Su @akasuv",
   "bin": {
