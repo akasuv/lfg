@@ -4,6 +4,7 @@ Frontend project auto-configuration
 
 <!-- toc -->
 
+- [lfg](#lfg)
 - [Usage](#usage)
 - [Commands](#commands)
 <!-- tocstop -->
@@ -13,11 +14,11 @@ Frontend project auto-configuration
 <!-- usage -->
 
 ```sh-session
-$ npm install -g lfg
+$ npm install -g @akasuv/lfg
 $ lfg COMMAND
 running command...
 $ lfg (--version)
-lfg/0.0.0 darwin-arm64 node-v14.17.5
+lfg/1.0.0 darwin-arm64 node-v14.17.5
 $ lfg --help [COMMAND]
 USAGE
   $ lfg COMMAND
@@ -31,6 +32,7 @@ USAGE
 <!-- commands -->
 
 - [`lfg write`](#lfg-write)
+- [`lfg help [COMMAND]`](#lfg-help-command)
 
 ## `lfg write`
 
@@ -58,4 +60,22 @@ ARGUMENTS
 
 FLAGS
   no flags
+```
+
+## `lfg help [COMMAND]`
+
+Display help for lfg.
+
+```
+USAGE
+  $ lfg help [COMMAND] [-n]
+
+ARGUMENTS
+  COMMAND  Command to show help for.
+
+FLAGS
+  -n, --nested-commands  Include all nested commands in the output.
+
+DESCRIPTION
+  Display help for lfg.
 ```
