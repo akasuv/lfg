@@ -89,7 +89,7 @@
   ],
   "types": "dist/index.d.ts",
   "lint-staged": {
-    "*.{js,json,yml,yaml,css,scss,ts,tsx,md}": [
+    "*.{js,json,yml,yaml,css,scss,ts,tsx}": [
       "prettier --write"
     ]
   }
