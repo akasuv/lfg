@@ -14,7 +14,7 @@ Frontend project auto-configuration
 <!-- usage -->
 
 ```sh-session
-$ npm install -g @akasuv/lfg
+$ npm install -g @cyberlab/lfg
 $ lfg COMMAND
 running command...
 $ lfg (--version)
